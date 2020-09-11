@@ -1,0 +1,172 @@
+/* MOBILE-BUILT CSS
+
+FLEXBOX SETUP FIRST */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.group img {
+  width: 100%;
+  filter: grayscale(1);
+  box-shadow: 2px 2px 10px;
+  transition: filter ease-in 0.7s;
+}
+
+img:hover {
+  filter: none;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* HEADER, NAVIGATION */
+
+header, footer {
+  background-color: black;
+  padding: 40px;
+}
+
+header h3 {
+  color: white;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px;
+  letter-spacing: 2.5px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main h2 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+section h2 {
+  padding-top: 15px;
+}
+
+span {
+  color: rgb(0, 81, 255);
+  font-size: larger;
+}
+
+p, span {
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: 2.5px;
+}
+
+.item, p {
+  padding: 10px;
+}
+
+/* FORM CSS */
+
+form {
+  
+  width: 100%;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 12px 0;
+  color: grey;
+  font-family: arial;
+}
+
+form select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+form textarea {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 30px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+footer h3 {
+  color: white;
+  text-align: center;
+}
+
+ul li {
+  justify-content: center;
+}
+
+.bg-insert {
+  background-color: gray;
+  opacity: 70%;
+}
+
+.exp-text {
+  color: #fff
+}
+
+/* DESKTOP REVISIONS */
+
+@media all and (min-width: 600px) {
+  p {
+    font-size: 22px;
+  }
+
+  section, h1 {
+   padding: 0 10%;
+ }
+
+ .group {
+   flex-direction: row;
+   justify-items: center;
+   align-items: center;
+ }
+
+ .item form {
+  text-align: center;
+  padding-bottom: 15px;
+ }
+
+}
