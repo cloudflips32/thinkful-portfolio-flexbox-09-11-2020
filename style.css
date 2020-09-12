@@ -68,6 +68,8 @@ a:hover {
   cursor: pointer;
 }
 
+/* MAIN AND SECTIONS */
+
 main h2 {
   text-align: center;
   margin-top: 5px;
@@ -134,20 +136,26 @@ footer h3 {
   text-align: center;
 }
 
+footer i {
+  color: #fff;
+}
+
 ul li {
   justify-content: center;
 }
 
 .bg-insert {
-  background-color: gray;
+  background-color: #000;
   opacity: 70%;
+  color: #fff;
+  padding: 25px 0;
 }
 
 .exp-text {
   color: #fff
 }
 
-/* DESKTOP REVISIONS */
+/* DESKTOP VIEWPOINT */
 
 @media all and (min-width: 600px) {
   p {
