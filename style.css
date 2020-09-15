@@ -79,6 +79,10 @@ section h2 {
   padding-top: 15px;
 }
 
+section h3 {
+  color: #000;
+}
+
 span {
   color: rgb(0, 81, 255);
   font-size: larger;
