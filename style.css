@@ -13,6 +13,7 @@ FLEXBOX SETUP FIRST */
   filter: grayscale(1);
   box-shadow: 2px 2px 10px;
   transition: filter ease-in 0.7s;
+  max-height: 600px;
 }
 
 img:hover {
